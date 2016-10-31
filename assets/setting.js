@@ -2,15 +2,26 @@
 var Page = {
     //-- de trong "" de giu nguyen default text
     logoText: "Openmize ",
-    subHeading: "Openmize | Bóng đèn đuổi muỗi chất lượng cao",
-    mainHeading: "OpenMize là nhà cung cấp bóng đèn đuổi muỗi chất lượng cao cho mọi gia đình",
+    subHeading: "Ổ cắm đa năng dùng được cho bếp từ. Dùng khi du lịch, văn phòng, gia đình",
+    mainHeading: "Ổ cắm đa năng. Cao cấp. Chất lượng.",
     CTA: "Xem sản phẩm của chúng tôi",
-    brief: "Sản phẩm bóng đèn đuổi muỗi của chúng tôi xuất khẩu sang châu Âu và được nhiều thị trường khó tính chấp nhận: Đức, Pháp, Úc, Mỹ…",
+    brief: "Chuyên bán ổ cắm điện đa năng, ổ cắm đa năng du lịch, ổ cắm điện có sạc usb, ổ cắm điện cho bếp từ",
 
     // ============= VARS ==============
-    url : "http://www.openmize.top/", //-- co slash cuoi /
-    mainkeyWord : "bóng đèn đuổi muổi",
-    longkeyWords : ["bóng đèn đuổi muỗi","muỗi zika"],
+    url : "http://ocamdanang.openmize.com/", //-- co slash cuoi /
+    mainkeyWord : "ổ cắm đa năng",
+    longkeyWords : [
+        "ổ cắm đa năng du lịch",
+        "ổ cắm đa năng hcm",
+        "bán ổ cắm đa năng",
+        "bán ổ cắm điện đa năng",
+        "ổ cắm điện có sạc usb",
+        "ổ cắm điện thông minh",
+        "ổ cắm điện cho bếp từ",
+        "ổ cắm điện cao cấp",
+        "ổ cắm điện nhập khẩu",
+        "ổ cắm điện 6 lỗ"
+    ],
     facebookAppId : "303370230021409", //-- your appID
     googleAnalyticId : "UA-82197343-2", //-- your id
     formId: "https://docs.google.com/forms/d/e/1FAIpQLScjBXL-M0eRB0qhX1xSV5sWWAwsXbNqtjAGm3aq0-l5EZAisg/viewform?embedded=true",
@@ -35,7 +46,7 @@ var colors = [
     "brown", "grey", "blue-grey"      // 16 17 18 19
 ];
 
-colors = ['red']
+colors = ['blue']
 var i = Math.floor( Math.random() * (colors.length - 0) + 0 );
 var chooseColor = colors[i].toString();
 
