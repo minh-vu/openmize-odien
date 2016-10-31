@@ -1,0 +1,24 @@
+.sectionxxx {margin-top: 40px;}
+img.logo {margin-top: 5px; margin-left: 5px; height: 50px;}
+.logo-text {font-size: 80%}
+
+h1 {font-size: 380%;}
+h2 {font-size: 220%;}
+h3 {font-size: 200%;}
+h4 {font-size: 160%;}
+
+.owl-carousel .owl-item img{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+@media print body {
+    font-family: "Arial", serif;
+    font-size: 1em;
+    color: #333333;
+    margin-top: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 1.5cm;
+    margin-left: 2cm;
+}
